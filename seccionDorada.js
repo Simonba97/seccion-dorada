@@ -37,7 +37,7 @@ function getX2(argument) {
 
 function showLineX(final) {
 	if (final) console.warn(`<-${getXi()}------${x2}------${x1}------${getXs()}->`);
-	else console.log(`<-${getXi()}------${x2}------${x1}------${getXs()}->`);	
+	else console.error(`<-${getXi()}------${x2}------${x1}------${getXs()}->`);	
 }
 
 function iterar() {
@@ -72,7 +72,7 @@ do {
 	var diferenceX = iterar();
 } while(diferenceX > errorMin)
 
-console.warn('\n👇 SOLUCIÓN ENCONTRADA 👇');
+console.warn('%c 👇 SOLUCIÓN ENCONTRADA 👇', 'text-align: center');
 showLineX(true);
 console.warn('🎉🎊🎉🎊🎉🎊🎉🎊🎉🎊🎊');
 
