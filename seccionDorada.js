@@ -36,8 +36,8 @@ function getX2(argument) {
 }
 
 function showLineX(final) {
-	if (final) console.warn(`<-${getXi()}------${x2}------${x1}------${getXs()}->`);
-	else console.error(`<-${getXi()}------${x2}------${x1}------${getXs()}->`);	
+	if (final) console.log(`%c <-${getXi()}------${x2}------${x1}------${getXs()}->`, 'font-weight: bold; font-size: 20px;color: red; margin: 0 auto');
+	else console.log(`<-${getXi()}------${x2}------${x1}------${getXs()}->`);	
 }
 
 function iterar() {
@@ -72,7 +72,5 @@ do {
 	var diferenceX = iterar();
 } while(diferenceX > errorMin)
 
-console.warn('%c 👇 SOLUCIÓN ENCONTRADA 👇', 'text-align: center');
+console.warn('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n%c 👇 SOLUCIÓN ENCONTRADA 👇\n', 'font-weight: bold; font-size: 50px;color: red; text-shadow: 3px 3px 0 rgb(217,31,38) , 6px 6px 0 rgb(226,91,14) , 9px 9px 0 rgb(245,221,8) , 12px 12px 0 rgb(5,148,68) , 15px 15px 0 rgb(2,135,206) , 18px 18px 0 rgb(4,77,145) , 21px 21px 0 rgb(42,21,113)');
 showLineX(true);
-console.warn('🎉🎊🎉🎊🎉🎊🎉🎊🎉🎊🎊');
-
