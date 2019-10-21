@@ -4,9 +4,9 @@ Método de optimización de una función matemática mediante la _**Sección Dor
 # Usabilidad 👌🏻
 Este ejemplo realiza la busqueda para hallar el extremo máximo mediante reducciones sucesivas del rango de valores dadas las siguientes condiciones:
 
-> **Función ** f(x)=-1.5x⁶-2x⁴+12x\
+> **Función** 👉🏻 f(x)=-1.5x⁶-2x⁴+12x\
 > **Intervalo** 👉🏻 [0,2] \
-> **Error:** 1% 
+> **Error** 👉🏻 1% 
 
 ### La ecuación se puede alterar en el siguiente tramo de código:
 ```javascript
